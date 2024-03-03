@@ -41,12 +41,13 @@ const showAllData = (data) => {
         <img class="w-1/6 rounded-full" src=${item.authors[0].profile_picture}>
         <h2 class="card-title font-bold">${item.title}</h2>
         </div>
-        <p class="text-2xl">${
+        <p class="text-2xl text-gray-700">${
           item.authors[0].profile_name
         }<span class="text-blue-400 ml-2">${
       item.authors[0].verified ? '<i class="fa-solid fa-certificate"></i>' : ""
     }</span>
         </P>
+        <P class="text-gray-700">${item.others.views} views</P>
         </div>
         `;
     cardContainer.appendChild(card);
