@@ -10,10 +10,28 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body{
+            min-height: 100vh;
+            background-color: white;
+            color: black;
+        }
+    </style>
   </head>
   <body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="flex justify-around py-14">
+            <img src="/assets/images/Logo.png" alt="">
+            <button class="btn text-black border-0 bg-gray-300">Short by view</button>
+            <button onclick="blogPage()" class="btn btn-error text-white">Blog</button>
+        </nav>
+        <hr class="w-9/12 mx-auto bg-balck">
+    </header>
 
     <!-- Scripts -->
     <script src="/scripts/script.js"></script>
+    <script src="/scripts/blog.js"></script>
   </body>
 </html>
