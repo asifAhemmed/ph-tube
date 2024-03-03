@@ -11,32 +11,45 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body{
-            min-height: 100vh;
-            background-color: white;
-            color: black;
-        }
+      body {
+        min-height: 100vh;
+        background-color: white;
+        color: black;
+      }
     </style>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/c5aab0adaf.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!-- Header -->
     <header>
-        <!-- Navbar -->
-        <nav class="flex justify-around py-14">
-            <img src="/assets/images/Logo.png" alt="">
-            <button class="btn text-black border-0 bg-gray-300">Short by view</button>
-            <button onclick="blogPage()" class="btn btn-error text-white">Blog</button>
-        </nav>
-        <hr class="w-9/12 mx-auto bg-balck">
+      <!-- Navbar -->
+      <nav class="flex justify-around py-14">
+        <img src="/assets/images/Logo.png" alt="" />
+        <button class="btn text-black border-0 bg-gray-300">
+          Short by view
+        </button>
+        <button onclick="blogPage()" class="btn btn-error text-white">
+          Blog
+        </button>
+      </nav>
+      <hr class="w-9/12 mx-auto bg-balck" />
     </header>
     <!-- Main -->
     <main>
-        <!-- Buttons -->
-        <section class="mt-5 w-9/12 mx-auto">
-            <div id="btn-container" class="flex justify-center gap-4 ">
+      <!-- Buttons -->
+      <section class="mt-5 w-9/12 mx-auto">
+        <div id="btn-container" class="flex justify-center gap-4"></div>
+      </section>
+      <!-- Cards -->
+      <section>
+        <div id="card-container" class="grid grid-cols-4 gap-6 w-9/12 mx-auto py-10">
 
-            </div>
-        </section>
+        </div>
+      </section>
     </main>
 
     <!-- Scripts -->
